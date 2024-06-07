@@ -43,7 +43,7 @@ public class RobotController : MonoBehaviour
             // Augmenter la vitesse et la surtension
             currentSpeed += speedIncrease;
             gameManager.IncreaseOvercharge(10f);
-            Destroy(collision.gameObject);
+            // Destroy(collision.gameObject);
 
             if (gameManager.IsOvercharged())
             {

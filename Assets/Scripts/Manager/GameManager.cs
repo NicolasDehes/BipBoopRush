@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,22 +17,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        overchargeSlider.maxValue = maxOvercharge;
-        ShowStartMessage();
+        overchargeSlider.maxValue = 1;
+        //ShowStartMessage();
+        StartGame();
     }
 
     void Update()
     {
-        if (!gameStarted)
-        {
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                StartGame();
-            }
-            return;
-        }
-
-        overchargeSlider.value = overcharge;
+        overchargeSlider.value = overcharge/maxOvercharge;
 
         if (overcharge > 0)
         {
@@ -81,6 +74,7 @@ public class GameManager : MonoBehaviour
 
     public void IncreaseOvercharge(float amount)
     {
+        Debug.Log("Overcharge: " + overcharge);
         overcharge += amount;
         if (overcharge < maxOvercharge)
         {
