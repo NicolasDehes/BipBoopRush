@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 2c9245aac8383d645965e9f864fe97e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 3
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 8876
+        width: 1254
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a8dee8e47a4574e92cd740d1479f99
+      internalID: -665172685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 5153
+        y: 8876
+        width: 1254
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e58eb4063f6e47b690e53cb8ae158
+      internalID: -2058197718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 8994
+        y: 8876
+        width: 1249
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57487722930b92e4e8389bbc2b35f866
+      internalID: -1915513252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 6716
+        width: 1305
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a18a823f71ced8439734f0be86894a2
+      internalID: -1307926706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 5147
+        y: 6716
+        width: 1305
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6348543ea3a1fe24286b766bf1bfd76b
+      internalID: 1177964961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 8989
+        y: 6716
+        width: 1305
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bca1dac723b224ea55cfbb2f3e1717
+      internalID: -1254712469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 4556
+        width: 1327
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c30c419650c345b4c80989eb125b7
+      internalID: 1050682560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 4556
+        width: 1328
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7f3db5b4a1c2544bea5bb5a33d0731
+      internalID: 324953340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 9011
+        y: 4556
+        width: 1328
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40649a98c33d545ab77c92b8e6d2e4
+      internalID: -232833786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2396
+        width: 1311
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7003dd2881a046489a627ad10fb42a1
+      internalID: -1986142666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 2396
+        width: 1317
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6abf08ca2085d349a058b74a434a8f2
+      internalID: -1272407742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 9028
+        y: 2396
+        width: 1311
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afb1db4e20b94541b89cc2753a6eea8
+      internalID: 394305963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 236
+        width: 1305
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441aac70abc61b848b63024a000e9a71
+      internalID: 1227078262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 236
+        width: 1305
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce500b89eb2ba4438361d5a66a51bff
+      internalID: -1807929794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobra_Robot-Hero_4K_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 9028
+        y: 236
+        width: 1300
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9a55ca04e7d2488a2bf72873a53d5
+      internalID: -584492542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cobra_Robot-Hero_4K_Idle_0: -665172685
+      Cobra_Robot-Hero_4K_Idle_1: -2058197718
+      Cobra_Robot-Hero_4K_Idle_10: -1272407742
+      Cobra_Robot-Hero_4K_Idle_11: 394305963
+      Cobra_Robot-Hero_4K_Idle_12: 1227078262
+      Cobra_Robot-Hero_4K_Idle_13: -1807929794
+      Cobra_Robot-Hero_4K_Idle_14: -584492542
+      Cobra_Robot-Hero_4K_Idle_2: -1915513252
+      Cobra_Robot-Hero_4K_Idle_3: -1307926706
+      Cobra_Robot-Hero_4K_Idle_4: 1177964961
+      Cobra_Robot-Hero_4K_Idle_5: -1254712469
+      Cobra_Robot-Hero_4K_Idle_6: 1050682560
+      Cobra_Robot-Hero_4K_Idle_7: 324953340
+      Cobra_Robot-Hero_4K_Idle_8: -232833786
+      Cobra_Robot-Hero_4K_Idle_9: -1986142666
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
