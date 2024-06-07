@@ -1,12 +1,10 @@
-using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public Text scoreText;
-    public Text startMessage;
-    public Text gameOverMessage;
     public Slider overchargeSlider;
     public int score = 0;
     private int multiplier = 1;
@@ -17,18 +15,21 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        overchargeSlider.maxValue = 1;
-        //ShowStartMessage();
+        overchargeSlider.maxValue = maxOvercharge;
+        highScore = PlayerPrefs.GetInt("HighScore", 0);
         StartGame();
     }
 
     void Update()
     {
-        overchargeSlider.value = overcharge/maxOvercharge;
+        if (!gameStarted)
+            return;
+
+        overchargeSlider.value = overcharge;
 
         if (overcharge > 0)
         {
-            overcharge -= Time.deltaTime * 5;
+            overcharge -= Time.deltaTime * 5; // Diminution de la surtension au fil du temps
         }
         else
         {
@@ -47,8 +48,6 @@ public class GameManager : MonoBehaviour
         score = 0;
         overcharge = 0;
         multiplier = 1;
-        startMessage.gameObject.SetActive(false);
-        gameOverMessage.gameObject.SetActive(false);
         Time.timeScale = 1;
     }
 
@@ -60,10 +59,8 @@ public class GameManager : MonoBehaviour
             highScore = score;
             PlayerPrefs.SetInt("HighScore", highScore);
         }
-        gameOverMessage.text = "Game Over! Press Enter to Restart\nHigh Score: " + highScore;
-        gameOverMessage.gameObject.SetActive(true);
-        FindObjectOfType<AudioManager>().PlayGameOverSound();
-        Time.timeScale = 0;
+        PlayerPrefs.SetInt("FinalScore", score);
+        SceneManager.LoadScene("GameOverScene");
     }
 
     public void AddScore(int points)
@@ -74,7 +71,6 @@ public class GameManager : MonoBehaviour
 
     public void IncreaseOvercharge(float amount)
     {
-        Debug.Log("Overcharge: " + overcharge);
         overcharge += amount;
         if (overcharge < maxOvercharge)
         {
@@ -89,14 +85,5 @@ public class GameManager : MonoBehaviour
     public bool IsOvercharged()
     {
         return overcharge >= maxOvercharge;
-    }
-
-    void ShowStartMessage()
-    {
-        startMessage.gameObject.SetActive(true);
-        gameOverMessage.gameObject.SetActive(false);
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
-        startMessage.text = "Press Enter to Start\nHigh Score: " + highScore;
-        Time.timeScale = 0;
     }
 }
