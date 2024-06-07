@@ -34,16 +34,14 @@ public class RobotController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("PointBox"))
         {
-            // Ajouter des points
             gameManager.AddScore(10);
             Destroy(collision.gameObject);
         }
         else if (collision.gameObject.CompareTag("Electric"))
         {
-            // Augmenter la vitesse et la surtension
             currentSpeed += speedIncrease;
             gameManager.IncreaseOvercharge(10f);
-            // Destroy(collision.gameObject);
+            Destroy(collision.gameObject);
 
             if (gameManager.IsOvercharged())
             {
